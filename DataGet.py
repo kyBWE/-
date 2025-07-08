@@ -9,7 +9,7 @@ import random
 for page in range(1,56):
     print('page:',format(page))
     offset=(page-1)*20
-    url = 'https://hurun.net/zh-CN/Rank/HsRankDetailsList?num=ODBYW2BI&search=&offset={}&limit=20'.format(offset)
+    url='https://hurun.net/zh-CN/Rank/HsRankDetailsList?num=ODBYW2BI&search=&offset={}&limit=20'.format(offset)
     headers={
         'referer':'https://hurun.net/zh-CN/Rank/HsRankDetails?pagetype=rich',
         'accept':'application/json, text/javascript, */*; q=0.01',
